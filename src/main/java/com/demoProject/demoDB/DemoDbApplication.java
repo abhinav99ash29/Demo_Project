@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-
 import com.demoProject.demoDB.model.Customer;
 import com.demoProject.demoDB.repo.CustomerRepository;
 

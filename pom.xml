@@ -11,10 +11,13 @@
 	<groupId>com.demoProject</groupId>
 	<artifactId>demoDB</artifactId>
 	<version>0.0.1</version>
+	<packaging>jar</packaging>
 	<name>demoDB</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
 
@@ -28,28 +31,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
-		<dependency>
-      		<groupId>org.springframework.boot</groupId>
-      		<artifactId>spring-boot-starter-web</artifactId>
-    	</dependency>
     	<dependency>
       		<groupId>org.springframework.data</groupId>
       		<artifactId>spring-data-couchbase</artifactId>
-    	</dependency>
-    	<dependency>
-      		<groupId>org.projectlombok</groupId>
-      		<artifactId>lombok</artifactId>
-    	</dependency>
-    	<dependency>
-      		<groupId>javax.validation</groupId>
-      		<artifactId>validation-api</artifactId>
     	</dependency>
     	<dependency>
         	<groupId>com.couchbase.client</groupId>
